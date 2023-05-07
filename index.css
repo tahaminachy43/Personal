@@ -1,0 +1,27 @@
+body{
+    background-color:#D2DAFF;
+    
+}
+.body1{
+    width: 1400px;
+    height: 800px;
+    background-color: #EEF1FF;
+}
+
+nav{
+    
+    position: relative;
+    display: flexbox;
+    margin-left: 900px;
+    background-color: #D2DAFF;
+}
+
+h5{
+    display: inline-block;
+    
+    margin: 0px 15px;
+    
+    position: relative;
+
+    
+}
