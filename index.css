@@ -1,5 +1,13 @@
 body{
-    background-color:#2A2F4F;
+    background: hsla(258, 70%, 21%, 1);
+
+background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
     margin: 5px;
     
 }
@@ -16,7 +24,7 @@ body{
 
 nav{
     height: 30px;
-    background-color: #2A2F4F;
+    
     position: sticky;
     padding: 10px;
     
@@ -41,7 +49,7 @@ li {
   
 li a {
     display: inline;
-    color: white;
+    color: hsla(258, 70%, 21%, 1);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -57,7 +65,7 @@ li a:hover {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     text-decoration: none;
-    color: #EEF1FF;
+    color: hsla(258, 70%, 21%, 1);
     display: inline;
     
     
@@ -73,7 +81,7 @@ li a:hover {
 
 /* Image resize and positioning */
 
-img{
+.image{
     border-radius: 50%;
     margin-top: 120px;
     margin-left: 100px;
@@ -88,7 +96,15 @@ img{
     border-style: inset;
     border-radius: 20px;
     padding: 15px;
-    background-color: #2A2F4F;
+    background: hsla(258, 70%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
     color: #EEF1FF;
 
     
@@ -106,5 +122,44 @@ p{
 /* Done with main body next have to do work experiance*/
 
 
+#education{
+    width: 1460px;
+    height: 800px;
+    
+    
+    
+}
 
+.second{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+h2{
+    font-family: 'Donegal One', serif;
+    font-size: 38px;
+    padding: 10px 30px;
+    color: #EEF1FF;
+}
+
+.image2{
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+
+h4{
+    font-family: 'Donegal One', serif;
+    font-size: 28px;
+    color: #EEF1FF;
+}
+
+.subtext{
+    color: #EEF1FF;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 50px;
+    width: 500px;
+}
 
