@@ -1,27 +1,110 @@
 body{
-    background-color:#D2DAFF;
+    background-color:#2A2F4F;
+    margin: 5px;
     
 }
 .body1{
-    width: 1400px;
+    width: 1460px;
     height: 800px;
     background-color: #EEF1FF;
+    background-image: url(Purple\ Plain\ Wallpaper_resized.jpg);
+    
+    
 }
+
+/* Nav decoration */
 
 nav{
+    height: 30px;
+    background-color: #2A2F4F;
+    position: sticky;
+    padding: 10px;
     
-    position: relative;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    font-family: 'Archivo Narrow', sans-serif;
+    
+    
+    
+
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: #EEF1FF;
+    font-size: 125%;
+}
+
+.logo{
+    
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #EEF1FF;
+    display: inline;
+    
+    
+}
+
+
+#container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+/* Image resize and positioning */
+
+img{
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.maintext{
     display: flexbox;
-    margin-left: 900px;
-    background-color: #D2DAFF;
+    width: 600px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 120px;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #2A2F4F;
+    color: #EEF1FF;
+
+    
 }
 
-h5{
-    display: inline-block;
-    
-    margin: 0px 15px;
-    
-    position: relative;
-
-    
+h1{
+    font-size: 48px;
+    font-family: 'Donegal One', serif;
 }
+
+p{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* Done with main body next have to do work experiance*/
+
+
+
+
