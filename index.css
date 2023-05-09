@@ -1,18 +1,20 @@
 body{
     background: hsla(258, 70%, 21%, 1);
 
-background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
 
-background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
 
-background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
-    margin: 5px;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
+    margin:0px;
+    width: 1470px;
+    
     
 }
 .body1{
-    width: 1460px;
+    width: 1470px;
     height: 800px;
     background-color: #EEF1FF;
     background-image: url(Purple\ Plain\ Wallpaper_resized.jpg);
@@ -123,8 +125,18 @@ p{
 
 
 #education{
-    width: 1460px;
+    width: 1470px;
     height: 800px;
+    background: hsla(258, 70%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
+    color: #EEF1FF;
     
     
     
@@ -140,8 +152,9 @@ p{
 h2{
     font-family: 'Donegal One', serif;
     font-size: 38px;
-    padding: 10px 30px;
+    padding: 20px 30px;
     color: #EEF1FF;
+    margin-top: 0;
 }
 
 .image2{
@@ -160,6 +173,80 @@ h4{
     color: #EEF1FF;
     font-family: 'Archivo Narrow', sans-serif;
     padding: 50px;
-    width: 500px;
+    width: 400px;
 }
+
+#Work{
+    margin: 0;
+    width: 1470px;
+    height: 1000px;
+    
+    
+    background-color: hsla(258, 70%, 21%, 1);
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #EEF1FF;
+}
+
+.timeline{
+    
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #EEF1FF;
+}
+
+.timeline_component{
+    margin: 0px 20px 20px 20px;
+
+}
+
+.timeline_component_bg{
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.timeline_date_right{
+    text-align: right;
+}
+
+.timeline_middle{
+    position:relative;
+    background: white;
+}
+.timeline_point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+}
+
+.timeline_point_bottom{
+    top:initial;
+    bottom: 0;
+}
+
+timeline_bottom{
+    margin-bottom: 0;
+}
+
+.txt{
+    margin:0px;
+    font-size: 24px;
+
+}
+
+p{
+    line-height: 1.5;
+}
+
+
 
