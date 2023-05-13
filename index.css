@@ -251,9 +251,48 @@ p{
 #contact{
 
     background-image: url(Purple\ Plain\ Wallpaper_resized.jpg);
-    padding: 15px;
     display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: 800px;
+
     
+}
+
+.what{
+    width: 0px;
+    position:relative;
+}
+
+.col-sm-6{
+    display: flexbox;
+    width: 600px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 120px;
+    
+    padding: 15px;
+}
+.special{
+    color: hsla(258, 70%, 21%, 1);
+    padding:5px;
+    word-spacing: 5px;
+}
+
+.image3{
+    border-radius: 50%;
+    
+}
+
+.prop{
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.col-s{
+    width:500px;
+    padding: 100px 0px 0px 50px;
 }
 
 
